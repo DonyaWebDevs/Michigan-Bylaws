@@ -1,11 +1,6 @@
 # Michigan-Bylaws
 A react application that contains the Bylaws for some communities in Michigan. 
 
-# Weight Lifting Journal Frontend
-
-It's hard to keep track of how many reps you can do for time, or how much you usually deadlift. 
-This app keep it all organized and tracked for you.
-
 ## Getting Started
 
 Clone repo into your terminal and create your own branch -- MAKE SURE YOU DON'T FORK REPO BECAUSE WE ARE ALL EDITING OFF THE SAME REPO AND PUSHING TO MASTER
