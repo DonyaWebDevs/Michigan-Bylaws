@@ -1,14 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Navigationbar from './components/Navigationbar/NavBar';
 import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <Footer />
-    </div>
+class App extends Component {
+  render () {
+    return (
+      <div className="App">
+        <Navigationbar />
+        <main style= {{marginTop: '64px'}}>
+        
+        </main>
+        <Footer />
+
+      </div>
+    
+   
   );
+ }
 }
 
 export default App;

@@ -21,7 +21,7 @@ const Footer = () => {
                     <div>
                         <p>(248)658-8445</p>
                     </div>
-                        <p>{&copy} All Rights Reserved</p>
+                        {/* <p>{&copy} All Rights Reserved</p> */}
                 </div>
                 <div>
 
