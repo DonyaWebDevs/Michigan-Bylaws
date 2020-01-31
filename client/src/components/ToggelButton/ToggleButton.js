@@ -1,17 +1,29 @@
 import React from 'react';
 import './ToggleButton.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import Toggle from '../Toggle/Toggle';
+import { useToggle } from '../hooks/useToggle';
 
-const ToggleButton = props => (
-    // <button className="toggle_button">
-    //     <div className="toggle_button_line" />
-    //     <div className="toggle_button_line" />
-    //     <div className="toggle_button_line" />
-    // </button>
-    <button className="toggle_button">
-        <FontAwesomeIcon icon={faBars} size="4x"/>
-    </button>
-);
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
+const ToggleButton = props => {
+    const [toggle, setToggle] = useToggle(false)
+
+    const handleClick = e => {
+        e.preventDefault();
+        setToggle(!toggle)
+    }
+
+    return(
+        <div> 
+                <button className="toggle_button" onClick={handleClick} >
+                    <FontAwesomeIcon icon={faBars} size="2x"/>
+                </button>
+                {toggle ? (<Toggle />): (null)}
+                
+        </div>
+    )
+}
+
 
 export default ToggleButton;
