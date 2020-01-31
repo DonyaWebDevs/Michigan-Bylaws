@@ -1,58 +1,76 @@
 .navigationbar {
-    top: 0;
-    bottom: 0;
-    position: fixed;
+    /* top: 0; */
+    /* bottom: 0; */
+    /* position: fixed; */
     width: 100%;
-    background: white;
+    background: transparent;
     height: 56px;
+    border-bottom: 1px solid black;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .navbar {
     display: flex;
     height: 100%;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 5%;
 
 }
 
+.navbar_logo {
+    margin-top: 1%;
+    padding: 0 5%;
+
+}
 .navbar_logo a {
-    color: black;
+    color: rgb(77, 66, 66);
     text-decoration: none;
-    font-size: 1.5rem;
-
-}
-.navbar_logo img{
-   height: 50px;
-   padding: 0 8rem;
-
-}
-.spacer{
-    flex: 1;
-}
-.toggle {
-    margin-left: 0.5rem ;
-}
-.navbar_items ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
    
+    
 
 }
 
-.navbar_items li {
-    padding: 0 0.5rem;
- 
+
+.size{
+    margin: 0 auto;
+    margin-top: 5%;
+    color: black;
+    width: 10%;
 }
 
-.navbar_items a {
-    color:black;
-    text-decoration: none;
 
+.size:hover{
+    color: #ff0000;
 }
 
-.navbar_items a:active {
+.size a {
+    color: #000000;
+}
+
+.size a:hover{
+    color: #ff0000;
     
 }
 
+.nav_icons{
+    display:flex;
+    width: 50%;
+}
+
+@media (min-width: 700px){
+
+
+    .nav_icons{
+        width: 60%;
+    }
+
+    .navbar_logo img{
+        width: 240px;
+      
+     
+     }
+
+
+
+}
