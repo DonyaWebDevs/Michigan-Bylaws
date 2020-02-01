@@ -14,11 +14,14 @@ const ToggleButton = props => {
         setToggle(!toggle)
     }
 
+    
+
     return(
-        <div> 
+        <div className="toggle_container"> 
                 <button className="toggle_button" onClick={handleClick} >
                     <FontAwesomeIcon icon={faBars} size="2x"/>
                 </button>
+                
                 {toggle ? (<Toggle />): (null)}
                 
         </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navigationbar from './components/Navigationbar/NavBar';
+import Footer from './components/footer/Footer';
 import Toggle from './components/Toggle/Toggle'
 
 
@@ -26,7 +27,7 @@ class App extends Component {
         <main style= {{marginTop: '64px'}}>
         
         </main>
-
+        <Footer />
 
       </div>
     
