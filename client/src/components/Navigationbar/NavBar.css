@@ -3,7 +3,7 @@
     bottom: 0;
     position: fixed;
     width: 100%;
-    background: transparent;
+    background: #fff;
     /* background-clip: padding-box; */
     height: 56px;
     border-bottom: 1px solid black;

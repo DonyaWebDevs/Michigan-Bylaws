@@ -10,20 +10,26 @@ const Footer = () => {
         <div>
             <footer className="footer-container">
                 <div className="footer-top">
-                    <img src={NRC} alt="National Retail Centers "></img>
-                    <img src={MLS} alt="MLS logo"></img>
-                    <div>
+                    <div className="footer-image">
+                        <div className="footer-image_NRC">
+                            <img src={NRC} alt="National Retail Centers "></img>
+                        </div>
+                        <div className="footer-image_MLS">
+                            <img src={MLS} alt="MLS logo"></img>
+                        </div>
+                    </div>
+                    <div className="footer-name">
                         <p>KEVIN CERMAK REAL ESTATE GROUP</p>
                     </div>
-                    <div>
+                    <div className="footer-address">
                         <p>Northville/ Birmingham/ Livonia</p>
                         <p>116 W. Main Street</p>
                         <p>Northville, MI 48167</p>
                     </div>
-                    <div>
+                    <div className="footer-number">
                         <p>(248)658-8445</p>
                     </div>
-                        <p>&copy; All Rights Reserved</p>
+                        <p className="footer-copyright">&copy; All Rights Reserved</p>
                 </div>
                 <div className="list-container">
                   <ul className="list">
