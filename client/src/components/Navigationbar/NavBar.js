@@ -10,36 +10,26 @@ const NavBar = props => (
     <header className="navigationbar">
         <nav className="navbar">
             <div className="navbar_logo"><img src={Kevin} alt="Logo"/><a href="/"></a></div>
-            <div className="spacer"></div>
-            <div className="navbar_items">
-           
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">Advanced Search</a></li>
-                    <li><a href="/">Market Reports</a></li>
-                    <li><a href="/">Buying</a></li>
-                    <li><a href="/">Selling</a></li>
-                    <li><a href="/">Foreclosures</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Contact Us</a></li>
-                    <li><a href="/">By Laws</a></li>
+                  <div className="nav_icons">
+                    <div className="size">
                     <a href="mailto:soldbycermak@gmail.com">
                         <FontAwesomeIcon icon={faEnvelope} size="2x"/>
                     </a >
+                    </div>
+                    <div className="size">
                     <a href="tel:248-658-8445">
                         <FontAwesomeIcon icon={faPhoneAlt}  size="2x" />
                     </a>
-                    <div>
+                    </div>
+                    <div className="size">
                         <FontAwesomeIcon icon={faUser} size="2x"/>
                     </div>    
 
-                    <div classname="toggle">
-                       <ToggleButton />
+                   
+                        <ToggleButton click={props.toggleOpenClickHandler} />
+                    
                    </div>
                
-                </ul>
-                
-            </div>
         </nav>
     </header>
 
