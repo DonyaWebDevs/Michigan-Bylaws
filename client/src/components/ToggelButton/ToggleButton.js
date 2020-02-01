@@ -14,6 +14,8 @@ const ToggleButton = props => {
         setToggle(!toggle)
     }
 
+    
+
     return(
         <div className="toggle_container"> 
                 <button className="toggle_button" onClick={handleClick} >
