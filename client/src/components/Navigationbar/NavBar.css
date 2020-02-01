@@ -1,9 +1,10 @@
 .navigationbar {
-    /* top: 0; */
-    /* bottom: 0; */
-    /* position: fixed; */
+    top: 0;
+    bottom: 0;
+    position: fixed;
     width: 100%;
     background: transparent;
+    /* background-clip: padding-box; */
     height: 56px;
     border-bottom: 1px solid black;
     padding-top: 2%;
