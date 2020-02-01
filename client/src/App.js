@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navigationbar from './components/Navigationbar/NavBar';
-import Footer from './components/Footer';
+import Footer from './components/footer/Footer';
 import Toggle from './components/Toggle/Toggle'
 
 
