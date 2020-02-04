@@ -3,6 +3,7 @@ import './ToggleButton.css';
 import Toggle from '../Toggle/Toggle';
 import { useToggle } from '../hooks/useToggle';
 
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -24,6 +25,7 @@ const ToggleButton = props => {
                 
                 {toggle ? (<Toggle />): (null)}
                 
+        
         </div>
     )
 }

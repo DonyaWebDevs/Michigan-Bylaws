@@ -1,11 +1,20 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
 footer{
     background:#000000;
     color: #ffffff;
     padding-left: 2%;
     font-size: 62.5%;
+    padding-bottom: 5%;
 }
 
-
+.footer-container{
+    font-size: 1rem;
+    
+}
 .footer-image{
     display:grid;
     /* flex-direction: column; */
@@ -57,4 +66,25 @@ footer{
 .list a{
     text-decoration: none;
     color: #ffffff;
+}
+
+@media (min-width: 769px){
+    .footer-container{
+        display:grid;
+        grid-template-columns: 45% 50% ;
+
+        /* padding-left: 10%; */
+        /* padding-right: 12%; */
+    }
+    .footer-top{
+        /* padding-left: 10%; */
+    }
+    .list-container{
+        margin-top: 1%;
+        margin-left: 2%
+    }
+
+    footer{
+        padding-bottom: 5%;
+    }
 }
