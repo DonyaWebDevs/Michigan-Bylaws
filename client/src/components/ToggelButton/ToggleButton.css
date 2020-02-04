@@ -1,8 +1,11 @@
 .toggle_button {
+    display: flex;
+    justify-content: right;
+    
+
     border: none;
     cursor: pointer;
-    box-sizing: border-box; 
-    color: black;
-    margin-top: 4%;
+    /* margin-top: 4%; */
+    margin-bottom: 40%;
     width: 2%;
 }
