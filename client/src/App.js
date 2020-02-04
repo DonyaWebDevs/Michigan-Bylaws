@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navigationbar from './components/Navigationbar/NavBar';
 import Footer from './components/footer/Footer';
 import Toggle from './components/Toggle/Toggle'
+import SubFooter from './components/SubFooter/SubFooter';
 
 
 
@@ -28,7 +29,7 @@ class App extends Component {
         
         </main>
         <Footer />
-
+        <SubFooter />
       </div>
     
    

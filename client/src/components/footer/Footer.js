@@ -10,45 +10,51 @@ const Footer = () => {
         <div>
             <footer className="footer-container">
                 <div className="footer-top">
-                    <img src={NRC} alt="National Retail Centers "></img>
-                    <img src={MLS} alt="MLS logo"></img>
-                    <div>
+                    <div className="footer-image">
+                        <div className="footer-image_NRC">
+                            <img src={NRC} alt="National Retail Centers "></img>
+                        </div>
+                        <div className="footer-image_MLS">
+                            <img src={MLS} alt="MLS logo"></img>
+                        </div>
+                    </div>
+                    <div className="footer-name">
                         <p>KEVIN CERMAK REAL ESTATE GROUP</p>
                     </div>
-                    <div>
+                    <div className="footer-address">
                         <p>Northville/ Birmingham/ Livonia</p>
                         <p>116 W. Main Street</p>
                         <p>Northville, MI 48167</p>
                     </div>
-                    <div>
+                    <div className="footer-number">
                         <p>(248)658-8445</p>
                     </div>
-                        <p>&copy; All Rights Reserved</p>
+                        <p className="footer-copyright">&copy; All Rights Reserved</p>
                 </div>
                 <div className="list-container">
                   <ul className="list">
-                    <li> <a href="/">Ann Arbor</a></li>
-                    <li> <a href="/">Berkley</a></li>
-                    <li> <a href="/">Birmingham</a></li>
-                    <li> <a href="/">Bloomfield</a></li>
-                    <li> <a href="/">Brighton</a></li>
-                    <li> <a href="/">Canton</a></li>
-                    <li> <a href="/">Clarkstone</a></li>
-                    <li> <a href="/">Commerce</a></li>
-                    <li> <a href="/">Farmington Hills</a></li>
-                    <li> <a href="/">Ferndale</a></li>
-                    <li> <a href="/">Livonia</a></li>
-                    <li> <a href="/">Madison Heights</a></li>
-                    <li> <a href="/">Milford</a></li>
-                    <li> <a href="/">Northville</a></li>
-                    <li> <a href="/">Novi</a></li>
-                    <li> <a href="/">Plymouth</a></li>
-                    <li> <a href="/">Rochester</a></li>
-                    <li> <a href="/">Rochester Hills</a></li>
-                    <li> <a href="/">Royal Oak</a></li>
-                    <li> <a href="/">South Lyon</a></li>
-                    <li> <a href="/">Westland</a></li>
-                    <li> <a href="/">Wixom</a></li>
+                    <li> <a href="https://www.soldbycermak.com/ann-arbor-mi-homes-for-sale/">Ann Arbor</a></li>
+                    <li> <a href="https://www.soldbycermak.com/berkley-mi-homes-for-sale/">Berkley</a></li>
+                    <li> <a href="https://www.soldbycermak.com/birmingham-mi-homes-for-sale/">Birmingham</a></li>
+                    <li> <a href="https://www.soldbycermak.com/bloomfield-mi-homes-for-sale/">Bloomfield</a></li>
+                    <li> <a href="https://www.soldbycermak.com/brighton-mi-homes-for-sale/">Brighton</a></li>
+                    <li> <a href="https://www.soldbycermak.com/canton-mi-homes-for-sale/">Canton</a></li>
+                    <li> <a href="https://www.soldbycermak.com/clarkston-mi-homes-for-sale/">Clarkstone</a></li>
+                    <li> <a href="https://www.soldbycermak.com/commerce-mi-homes-for-sale/">Commerce</a></li>
+                    <li> <a href="https://www.soldbycermak.com/farmington-hills-mi-homes-for-sale/">Farmington Hills</a></li>
+                    <li> <a href="https://www.soldbycermak.com/ferndale-mi-homes-for-sale/">Ferndale</a></li>
+                    <li> <a href="https://www.soldbycermak.com/livonia-mi-homes-for-sale/">Livonia</a></li>
+                    <li> <a href="https://www.soldbycermak.com/madison-heights-mi-homes-for-sale/">Madison Heights</a></li>
+                    <li> <a href="https://www.soldbycermak.com/milford-mi-homes-for-sale/">Milford</a></li>
+                    <li> <a href="https://www.soldbycermak.com/northville-mi-homes-for-sale/">Northville</a></li>
+                    <li> <a href="https://www.soldbycermak.com/novi-mi-homes-for-sale/">Novi</a></li>
+                    <li> <a href="https://www.soldbycermak.com/plymouth-mi-homes-for-sale/">Plymouth</a></li>
+                    <li> <a href="https://www.soldbycermak.com/rochester-mi-homes-for-sale/">Rochester</a></li>
+                    <li> <a href="https://www.soldbycermak.com/rochester-hills-mi-homes-for-sale/">Rochester Hills</a></li>
+                    <li> <a href="https://www.soldbycermak.com/royal-oak-mi-homes-for-sale/">Royal Oak</a></li>
+                    <li> <a href="https://www.soldbycermak.com/south-lyon-mi-homes-for-sale/">South Lyon</a></li>
+                    <li> <a href="https://www.soldbycermak.com/westland-mi-homes-for-sale/">Westland</a></li>
+                    <li> <a href="https://www.soldbycermak.com/wixom-mi-homes-for-sale/">Wixom</a></li>
                   </ul>
                    
                     
