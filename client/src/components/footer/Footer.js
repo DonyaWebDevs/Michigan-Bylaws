@@ -11,11 +11,11 @@ const Footer = () => {
             <footer className="footer-container">
                 <div className="footer-top">
                     <div className="footer-image">
-                        <div className="footer-image_NRC">
-                            <img src={NRC} alt="National Retail Centers "></img>
+                        <div >
+                            <img className="footer-image_NRC" src={NRC} alt="National Retail Centers "></img>
                         </div>
-                        <div className="footer-image_MLS">
-                            <img src={MLS} alt="MLS logo"></img>
+                        <div >
+                            <img className="footer-image_MLS"className="footer-image_MLS" src={MLS} alt="MLS logo"></img>
                         </div>
                     </div>
                     <div className="footer-name">

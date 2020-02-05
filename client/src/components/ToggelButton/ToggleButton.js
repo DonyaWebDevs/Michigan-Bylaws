@@ -1,32 +1,52 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './ToggleButton.css';
+import '../../scss/custom.scss'
 import Toggle from '../Toggle/Toggle';
 import { useToggle } from '../hooks/useToggle';
+import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const ToggleButton = props => {
-    const [toggle, setToggle] = useToggle(false)
+    const [dropdownOpen, setDropdownOpen] = useState(false);
 
-    const handleClick = e => {
-        e.preventDefault();
-        setToggle(!toggle)
-    }
+  const toggle = () => setDropdownOpen(prevState => !prevState);
 
+    // const [toggle, setToggle] = useToggle(false)
+
+    // const handleClick = e => {
+    //     e.preventDefault();
+    //     setToggle(!toggle)
+    // }
+
+    
     
 
     return(
-        <div className="toggle_container"> 
-                <button className="toggle_button" onClick={handleClick} >
-                    <FontAwesomeIcon icon={faBars} size="2x"/>
-                </button>
-                
-                {toggle ? (<Toggle />): (null)}
-                
-        
-        </div>
+
+        <Dropdown isOpen={dropdownOpen} toggle={toggle}>
+        <DropdownToggle color="light" caret>
+            <FontAwesomeIcon icon={faBars} size="2x"/>
+        </DropdownToggle>
+        <DropdownMenu right>
+         
+          
+          <DropdownItem><a href="/">Item </a></DropdownItem>
+          <DropdownItem><a href="/">Home</a></DropdownItem>
+         <DropdownItem><a href="/">Advanced Search</a></DropdownItem>
+         <DropdownItem><a href="/">Market Reports</a></DropdownItem>
+         <DropdownItem><a href="/">Buying</a></DropdownItem>
+         <DropdownItem><a href="/">Selling</a></DropdownItem>
+         <DropdownItem><a href="/">Foreclosures</a></DropdownItem>
+         <DropdownItem><a href="/">About</a></DropdownItem>
+         <DropdownItem><a href="/">Contact Us</a></DropdownItem>
+         <DropdownItem><a href="/">By Laws</a></DropdownItem>
+          
+        </DropdownMenu>
+      </Dropdown>
+       
     )
 }
 
