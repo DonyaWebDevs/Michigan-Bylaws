@@ -1,9 +1,7 @@
 .toggle{
-  position: fixed;
-  /* display:inline-block; */
-  /* box-sizing: border-box; */
-  background-color: #f1f1f1;
-  width: 20%;
+  position: absolute;
+  background-color: gray;
+  width: 400px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   /* margin-top: 30%; */
   /* margin-right:50%; */
@@ -26,6 +24,3 @@
     font-size: 1rem;
 }
 
-.show{
-    display: block;
-}
