@@ -1,44 +1,10 @@
-.navigationbar {
-    top: 0;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    background: #fff;
-    /* background-clip: padding-box; */
-    height: 56px;
-    border-bottom: 1px solid black;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
 
-.navbar {
+.nav_icons{
     display: flex;
-    height: 100%;
-    align-items: center;
-    padding: 0 5%;
-
-}
-
-.navbar_logo {
-    margin-top: 1%;
-    padding: 0 5%;
-
-}
-.navbar_logo a {
-    color: rgb(77, 66, 66);
-    text-decoration: none;
+    justify-content: space-between;  
    
-    
+ }
 
-}
-
-
-.size{
-    margin: 0 auto;
-    margin-top: 5%;
-    color: black;
-    width: 10%;
-}
 
 
 .size:hover{
@@ -54,16 +20,13 @@
     
 }
 
-.nav_icons{
-    display:flex;
-    width: 50%;
-}
 
 @media (min-width: 700px){
 
 
     .nav_icons{
         width: 60%;
+     
     }
 
     .navbar_logo img{
