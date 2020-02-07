@@ -69,9 +69,9 @@ export default function App () {
       <div className="App">
         
           <Navigationbar  />
-          
-          <div>
-            <Button className="button" onClick={tCanton} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Canton</Button>
+          <div style={{ display: "flex", flexFlow: "wrap", justifyContent:" space-around"}}>
+          <div style={{ width: "40%"}}>
+            <Button  onClick={tCanton} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Canton</Button>
             <Collapse isOpen={canton}>
               <Card>
                 <CardBody>
@@ -80,9 +80,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-
-          <div>
-            <Button color="primary" onClick={tCommerce} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Commerce</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tCommerce} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Commerce</Button>
             <Collapse isOpen={commerce}>
               <Card>
                 <CardBody>
@@ -91,8 +90,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          <div>
-            <Button color="primary" onClick={tFarmginton} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Farmington</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tFarmginton} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Farmington</Button>
             <Collapse isOpen={farmington}>
               <Card>
                 <CardBody>
@@ -101,8 +100,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-         <div>
-          <Button color="primary" onClick={tFarmingtonH} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Farmington Hills</Button>
+         <div style={{ width: "40%"}}>
+          <Button color="primary" onClick={tFarmingtonH} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Farmington Hills</Button>
           <Collapse isOpen={farmingtonHills}>
             <Card>
               <CardBody>
@@ -111,8 +110,8 @@ export default function App () {
             </Card>
           </Collapse>
         </div>
-        <div>
-            <Button color="primary" onClick={tGreenOak} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Green Oak Township</Button>
+        <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tGreenOak} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Green Oak Township</Button>
             <Collapse isOpen={greenOak}>
               <Card>
                 <CardBody>
@@ -121,8 +120,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          <div>
-            <Button color="primary" onClick={tLivonia} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Livonia</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tLivonia} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Livonia</Button>
             <Collapse isOpen={livonia}>
               <Card>
                 <CardBody>
@@ -131,8 +130,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-         <div>
-            <Button color="primary" onClick={tMilford} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Milford</Button>
+         <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tMilford} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Milford</Button>
             <Collapse isOpen={milford}>
               <Card>
                 <CardBody>
@@ -141,8 +140,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          <div>
-            <Button color="primary" onClick={tNewHudson} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>New Hudson</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tNewHudson} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>New Hudson</Button>
             <Collapse isOpen={newHudson}>
               <Card>
                 <CardBody>
@@ -151,8 +150,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          <div>
-            <Button color="primary" onClick={tNorthville} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Northville</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tNorthville} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Northville</Button>
             <Collapse isOpen={northville}>
               <Card>
                 <CardBody>
@@ -161,8 +160,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          <div>
-            <Button color="primary" onClick={tNovi} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Novi</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tNovi} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Novi</Button>
             <Collapse isOpen={novi}>
               <Card>
                 <CardBody>
@@ -171,8 +170,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          <div>
-            <Button color="primary" onClick={tPlymouth} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Plymouth</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tPlymouth} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Plymouth</Button>
             <Collapse isOpen={plymouth}>
               <Card>
                 <CardBody>
@@ -181,8 +180,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          <div>
-            <Button color="primary" onClick={tSouthLyon} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>South Lyon</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tSouthLyon} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>South Lyon</Button>
             <Collapse isOpen={southLyon}>
               <Card>
                 <CardBody>
@@ -191,8 +190,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          <div>
-            <Button color="primary" onClick={tWalledlake} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Walled Lake</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tWalledlake} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Walled Lake</Button>
             <Collapse isOpen={walledLake}>
               <Card>
                 <CardBody>
@@ -201,8 +200,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          <div>
-            <Button color="primary" onClick={tWaterford} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Waterford</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tWaterford} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Waterford</Button>
             <Collapse isOpen={waterford}>
               <Card>
                 <CardBody>
@@ -211,8 +210,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          <div>
-            <Button color="primary" onClick={tWestland} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Westland</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tWestland} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Westland</Button>
             <Collapse isOpen={westland}>
               <Card>
                 <CardBody>
@@ -221,8 +220,8 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          <div>
-            <Button color="primary" onClick={tWixom} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Wixom</Button>
+          <div style={{ width: "40%"}}>
+            <Button color="primary" onClick={tWixom} style={{ marginBottom: '1rem', background: 'crimson', width: '100%', border:'1px solid black' }}>Wixom</Button>
             <Collapse isOpen={wixom}>
               <Card>
                 <CardBody>
@@ -231,7 +230,7 @@ export default function App () {
               </Card>
             </Collapse>
           </div>
-          
+          </div>
           
           
           <div>
