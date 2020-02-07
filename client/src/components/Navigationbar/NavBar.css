@@ -1,11 +1,24 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar_logo{
+    width: 60%;
+}
+
+.navbar_logo img{
+    width:60%;
+}
+
 
 .nav_icons{
     display: flex;
     justify-content: space-between;  
-   
+    align-items: center;
+    width: 40%;
  }
-
-
 
 .size:hover{
     color: #ff0000;
@@ -23,12 +36,7 @@
 
 @media (min-width: 700px){
 
-
-    .nav_icons{
-        width: 60%;
-     
-    }
-
+    
     .navbar_logo img{
         width: 240px;
       

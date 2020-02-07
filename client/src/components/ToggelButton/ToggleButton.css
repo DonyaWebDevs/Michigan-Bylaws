@@ -1,11 +1,12 @@
-.toggle_button {
-    display: flex;
-    justify-content: right;
-    
+.toggle_color{
+    background: #ffffff;
+}
 
-    border: none;
-    cursor: pointer;
-    /* margin-top: 4%; */
-    margin-bottom: 40%;
-    width: 2%;
+.toggle_button a{
+    color:black;
+  
+}
+
+.toggle_color:hover{
+    color: #ff0000;
 }

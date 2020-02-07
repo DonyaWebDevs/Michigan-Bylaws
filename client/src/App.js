@@ -27,12 +27,12 @@ export default function App () {
  
     return (
       <div className="App">
-        <>
+        
           <Navigationbar  />
           
           
-        </>
-        <>
+        
+        <div>
           {/* Routing below */}
           <Route exact path="/" component={Wheel}/>
           <Route path="/canton" component={Canton} />
@@ -52,7 +52,8 @@ export default function App () {
           <Route path="/wixom" component={Wixom} /> */}
 
 
-        </>
+        </div>
+        
         <Footer />
       </div>
     
