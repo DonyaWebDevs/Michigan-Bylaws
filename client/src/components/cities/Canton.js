@@ -20,7 +20,7 @@ import Palmer from "../../ByLaws/Canton/Palmer Place Master Deed and Bylaws/Palm
 import Pheasant from "../../ByLaws/Canton/Pheasant Ridge Bylaws/Pheasant-Ridge-By-Laws.pdf";
 import PreserveBylaws from "../../ByLaws/Canton/Preserve on Fellows Creek, Bylaws/POFC-BYLAWS.pdf";
 import PreserveMaster from "../../ByLaws/Canton/Preserve on Fellows Creek, Master Deed/POFC-MASTER-DEED.pdf";
-import RavenfieldDisclosure from "../../ByLaws/Canton/Ravenfield Condominium Disclosure Statement /Ravensfield-Condominium-Disclosure-Statement.pdf";
+import RavenfieldDisclosure from "../../ByLaws/Canton/Ravenfield-Condominium-Disclosure-Statement/Ravensfield-Condominium-Disclosure-Statement.pdf";
 import RavefieldMaster from "../../ByLaws/Canton/Ravenfield Condominium Master  Deed and Bylaws/Ravenfield-Condominium-Master-Deed-and-By-Laws.pdf";
 import RavenfieldResponse from "../../ByLaws/Canton/Ravenfield Condominium Responsibility Matrix/Responsibilty-Matrix.pdf";
 import SalemManor from "../../ByLaws/Canton/Salem Manor/CONSTITUTION_OF_SALEM_MANOR_SUBDIVISION.pdf";

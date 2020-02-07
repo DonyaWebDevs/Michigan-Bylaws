@@ -1,6 +1,6 @@
 import React from "react";
-import PondsAmend from "../../ByLaws/New Hudson/Ponds Bylaws 2nd Amend"
-import PondsBylaw from "../../ByLaws/New Hudson/Ponds Bylaws Min"
+import PondsAmend from "../../ByLaws/New-Hudson/Ponds Bylaws 2nd Amend"
+import PondsBylaw from "../../ByLaws/New-Hudson/Ponds Bylaws Min"
 
 export default function NewHudson () {
 
