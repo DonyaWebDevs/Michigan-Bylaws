@@ -1,14 +1,13 @@
 import React, {useState} from 'react';
 import './ToggleButton.css';
 
-import Toggle from '../Toggle/Toggle';
-import { useToggle } from '../hooks/useToggle';
+
+
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import Button from "@material-ui/core/Button"
 
 const ToggleButton = props => {
     const [dropdownOpen, setDropdownOpen] = useState(false);

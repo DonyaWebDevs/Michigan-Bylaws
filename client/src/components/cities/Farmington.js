@@ -1,8 +1,11 @@
 import React from "react";
+
 import DrakesCrossing from "../../ByLaws/Farmington/Drakes Crossing Bylaws/Drakes-Crossing-bylaws.pdf";
 import HuntersGrove from "../../ByLaws/Farmington/Hunters Grove Farmington/Hunters-Grove-Farmington.pdf";
 import RiverPines from "../../ByLaws/Farmington/River Pines of Farmington Bylaws/River_Pines_of_Farmington_Bylaws.pdf";
 import StamanAcres from "../../ByLaws/Farmington/Staman Acres/staman_acres.pdf";
+
+
 export default function Farmington () {
 
     return(
