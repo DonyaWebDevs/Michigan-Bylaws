@@ -1,5 +1,5 @@
 import React from "react";
-import AspenPlace from "../../ByLaws/Livonia/Aspen Place"
+import AspenPlace from "../../ByLaws/Livonia/Aspen Place/aspen-place.pdf"
 import Brookside from "../../ByLaws/Livonia/Brookside Bylaws Livonia"
 import CaliburnDec from "../../ByLaws/Livonia/Caliburn Declaration of Restrictions"
 import CaliburnSub from "../../ByLaws/Livonia/Caliburn Sub Bylaws"
