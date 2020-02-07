@@ -170,7 +170,7 @@ const Wheel = (props) => {
 
   return (
     <div>
-      <style>
+      {/* <style>
         {
           `.custom-tag {
               max-width: 100%;
@@ -195,7 +195,7 @@ const Wheel = (props) => {
         {slides}
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 }

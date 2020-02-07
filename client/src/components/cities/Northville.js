@@ -16,7 +16,7 @@ import CountryClubVillagePhaseBylaws from "../../ByLaws/Northville/Country Club 
 import CountryClubVillagePhaseConsolidatingMasterDeed from "../../ByLaws/Northville/Country Club Village Phase III Consolidating Master Deed/Country-Club-Village-PhaseIII-Consolidating-Master-Deed.pdf";
 import CountryClubVillagePhaseFirstAmendment from "../../ByLaws/Northville/Country Club Village Phase III First Amendment/Country-Club-Village-PhaseIII-First-Amendment.pdf";
 import CountryClubVillagePhaseSecondAmendment from "../../ByLaws/Northville/Country Club Village Phase III Second Amendment/Country-Club-Village-PhaseIII-Second-Amendment.pdf";
-import CountryClubVillagePhseMasterDeed from "../../ByLaws/Northville/Country Club Village Phase III Master Deed/Country-Club-Village-PhaseIII-Master-Deed.pdf";
+import CountryClubVillagePhseMasterDeed from "../../ByLaws/Northville/Country Club Village Phse III Master Deed/Country-Club-Village-PhaseIII-Master-Deed.pdf";
 import CountryClubVlgPart1 from "../../ByLaws/Northville/Country Club Vlg II Part 1/Country_Club_Vlg_II_Part_1.pdf";
 import CountryClubVlgPart2 from "../../ByLaws/Northville/Country Club Vlg II Part 2/Country_Club_Vlg_II_Part_2.pdf";
 import CovesatNorthvilleRidge from "../../ByLaws/Northville/Coves at Northville Ridge/CovesatNorthvileRidge.pdf";
@@ -82,7 +82,7 @@ import RavinesofNorthville from "../../ByLaws/Northville/Ravines of Northville/r
 import RiverParkVillageCondos from "../../ByLaws/Northville/River Park Village Condos/river-park-village-condos.pdf";
 import SaddleRidgeByLaws from "../../ByLaws/Northville/Saddle Ridge Bylaws/SADDLE_RIDGE_BYLAWS.pdf";
 import ShadbrookBuildingRestrictions from "../../ByLaws/Northville/Shadbrook Building Restrictions/Shadbrook-Building-Restrictions.pdf";
-import ShadbrookBylaws from "../../ByLaws/Northville/Shadbrook Bylaws/SADDLE_RIDGE_BYLAWS.pdf";
+import ShadbrookBylaws from "../../ByLaws/Northville/Shadbrook Bylaws/Shadbrook-Bylaws.pdf";
 import SpringwaterCondo from "../../ByLaws/Northville/Springwater Condo/springwater-condo.pdf";
 import StLawerenceEstates from "../../ByLaws/Northville/St Lawerence Estates/St-Lawrence-Estates.pdf";
 import StLawrenceLERulesRegulations from "../../ByLaws/Northville/St Lawrence LE Rules & Regulations 2018/St-Lawrence-Rules-and-Regulations-2018.pdf";
