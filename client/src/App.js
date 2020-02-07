@@ -36,10 +36,10 @@ export default function App () {
           {/* Routing below */}
           <Route exact path="/" component={Wheel}/>
           <Route path="/canton" component={Canton} />
-          {/* <Route path="/commerce" component={Commerce} />
-          <Route path="/farmington" component={Framington} />
+          <Route path="/commerce" component={Commerce} />
+          <Route path="/farmington" component={Farmington} />
           <Route path="/farmington-hills" component={FarmingtonHills} />
-          <Route path="/green-oak-township" component={GreenOak} />
+          <Route path="/green-oak" component={GreenOak} />
           <Route path="/livonia" component={Livonia} />
           <Route path="/milford" component={Milford} />
           <Route path="/new-hudson" component={NewHudson} />
@@ -47,9 +47,9 @@ export default function App () {
           <Route path="/plymouth" component={Plymouth} />
           <Route path="/south-lyon" component={SouthLyon} />
           <Route path="/walled-lake" component={WalledLake} />
-          <Route path="/waterford" component={Waterford} />
+          <Route path="/waterford" component={WaterFord} />
           <Route path="/westland" component={Westland} />
-          <Route path="/wixom" component={Wixom} /> */}
+          <Route path="/wixom" component={Wixom} />
 
 
         </>
