@@ -92,7 +92,7 @@ export default function App () {
             </Collapse>
           </div>
           <div>
-            <Button color="primary" onClick={tFarmginton} style={{ marginBottom: '1rem' }}>Farmington</Button>
+            <Button color="primary" onClick={tFarmginton} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Farmington</Button>
             <Collapse isOpen={farmington}>
               <Card>
                 <CardBody>
@@ -102,7 +102,7 @@ export default function App () {
             </Collapse>
           </div>
          <div>
-          <Button color="primary" onClick={tFarmingtonH} style={{ marginBottom: '1rem' }}>Farmington Hills</Button>
+          <Button color="primary" onClick={tFarmingtonH} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Farmington Hills</Button>
           <Collapse isOpen={farmingtonHills}>
             <Card>
               <CardBody>
@@ -112,7 +112,7 @@ export default function App () {
           </Collapse>
         </div>
         <div>
-            <Button color="primary" onClick={tGreenOak} style={{ marginBottom: '1rem' }}>Green Oak Township</Button>
+            <Button color="primary" onClick={tGreenOak} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Green Oak Township</Button>
             <Collapse isOpen={greenOak}>
               <Card>
                 <CardBody>
@@ -122,7 +122,7 @@ export default function App () {
             </Collapse>
           </div>
           <div>
-            <Button color="primary" onClick={tLivonia} style={{ marginBottom: '1rem' }}>Livonia</Button>
+            <Button color="primary" onClick={tLivonia} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Livonia</Button>
             <Collapse isOpen={livonia}>
               <Card>
                 <CardBody>
@@ -132,7 +132,7 @@ export default function App () {
             </Collapse>
           </div>
          <div>
-            <Button color="primary" onClick={tMilford} style={{ marginBottom: '1rem' }}>Milford</Button>
+            <Button color="primary" onClick={tMilford} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Milford</Button>
             <Collapse isOpen={milford}>
               <Card>
                 <CardBody>
@@ -142,7 +142,7 @@ export default function App () {
             </Collapse>
           </div>
           <div>
-            <Button color="primary" onClick={tNewHudson} style={{ marginBottom: '1rem' }}>New Hudson</Button>
+            <Button color="primary" onClick={tNewHudson} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>New Hudson</Button>
             <Collapse isOpen={newHudson}>
               <Card>
                 <CardBody>
@@ -152,7 +152,7 @@ export default function App () {
             </Collapse>
           </div>
           <div>
-            <Button color="primary" onClick={tNorthville} style={{ marginBottom: '1rem' }}>Northville</Button>
+            <Button color="primary" onClick={tNorthville} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Northville</Button>
             <Collapse isOpen={northville}>
               <Card>
                 <CardBody>
@@ -162,7 +162,7 @@ export default function App () {
             </Collapse>
           </div>
           <div>
-            <Button color="primary" onClick={tNovi} style={{ marginBottom: '1rem' }}>Novi</Button>
+            <Button color="primary" onClick={tNovi} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Novi</Button>
             <Collapse isOpen={novi}>
               <Card>
                 <CardBody>
@@ -172,7 +172,7 @@ export default function App () {
             </Collapse>
           </div>
           <div>
-            <Button color="primary" onClick={tPlymouth} style={{ marginBottom: '1rem' }}>Plymouth</Button>
+            <Button color="primary" onClick={tPlymouth} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Plymouth</Button>
             <Collapse isOpen={plymouth}>
               <Card>
                 <CardBody>
@@ -182,7 +182,7 @@ export default function App () {
             </Collapse>
           </div>
           <div>
-            <Button color="primary" onClick={tSouthLyon} style={{ marginBottom: '1rem' }}>South Lyon</Button>
+            <Button color="primary" onClick={tSouthLyon} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>South Lyon</Button>
             <Collapse isOpen={southLyon}>
               <Card>
                 <CardBody>
@@ -192,7 +192,7 @@ export default function App () {
             </Collapse>
           </div>
           <div>
-            <Button color="primary" onClick={tWalledlake} style={{ marginBottom: '1rem' }}>Walled Lake</Button>
+            <Button color="primary" onClick={tWalledlake} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Walled Lake</Button>
             <Collapse isOpen={walledLake}>
               <Card>
                 <CardBody>
@@ -202,7 +202,7 @@ export default function App () {
             </Collapse>
           </div>
           <div>
-            <Button color="primary" onClick={tWaterford} style={{ marginBottom: '1rem' }}>Waterford</Button>
+            <Button color="primary" onClick={tWaterford} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Waterford</Button>
             <Collapse isOpen={waterford}>
               <Card>
                 <CardBody>
@@ -212,7 +212,7 @@ export default function App () {
             </Collapse>
           </div>
           <div>
-            <Button color="primary" onClick={tWestland} style={{ marginBottom: '1rem' }}>Westland</Button>
+            <Button color="primary" onClick={tWestland} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Westland</Button>
             <Collapse isOpen={westland}>
               <Card>
                 <CardBody>
@@ -222,7 +222,7 @@ export default function App () {
             </Collapse>
           </div>
           <div>
-            <Button color="primary" onClick={tWixom} style={{ marginBottom: '1rem' }}>Wixom</Button>
+            <Button color="primary" onClick={tWixom} style={{ marginBottom: '1rem', background: 'crimson', width: '40%', border:'1px solid black' }}>Wixom</Button>
             <Collapse isOpen={wixom}>
               <Card>
                 <CardBody>
