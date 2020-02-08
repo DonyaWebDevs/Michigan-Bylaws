@@ -14,20 +14,13 @@ const ToggleButton = props => {
 
   const toggle = () => setDropdownOpen(prevState => !prevState);
 
-    // const [toggle, setToggle] = useToggle(false)
-
-    // const handleClick = e => {
-    //     e.preventDefault();
-    //     setToggle(!toggle)
-    // }
-
-    
+   
     
 
     return(
 
-        <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-        <DropdownToggle color="light" caret>
+        <Dropdown className="toggle_button" isOpen={dropdownOpen} toggle={toggle}>
+        <DropdownToggle className="toggle_color" color="light" caret>
             <FontAwesomeIcon icon={faBars} size="2x"/>
         </DropdownToggle>
         <DropdownMenu right>
@@ -47,7 +40,6 @@ const ToggleButton = props => {
         </DropdownMenu>
       </Dropdown>
        
-    
     )
 }
 
