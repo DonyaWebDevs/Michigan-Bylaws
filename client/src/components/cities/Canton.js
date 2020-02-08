@@ -43,42 +43,42 @@ export default function Canton () {
 
 
     return(
-        <div>
-            <a href={AbbyWoods}>Abbey Woods Condos</a>
-            <a href={Buckingham}>Buckingham Place ByLaws</a>
-            <a href={CentralP}>Central Park Estates</a>
-            <a href={ChattertonSquare}>Chatterton Sqaure</a>
-            <a href={ChattertonVillage}>Chatterton Village</a>
-`           <a href={CherryHillO}>Cherry Hill Orchard</a>
-            <a href={CherryHillV}>Cherry Hill Village</a>
-            <a href={FWHByLaws}>Fairways West HOA Bylaws</a>
-            <a href={FWHCR}>Fairways-West-HOA-Covenants-Restrictions</a>
-            <a href={FairwaysWLotMap}>Fairways West Lot Map</a>
-            <a href={FairwaysWParkMap}>Fairways West Park Map</a>
-            <a href={ForestTrails}>ForestTrails</a>
-            <a href={FranklinPBylaws}>Franklin Palmer Bylaws</a>
-            <a href={FranklinPCovenants}>Franklin Palmer Covenants</a>
-            <a href={LinksFellows}>Links at Fellows Creek Bylaws</a>
-            <a href={OxfordParkBylaws}>Oxford Park Bylaws</a>
-            <a href={OxfordParkMaster}>Oxford Park Master Deed</a>
-            <a href={Palmer}>Palmer Place Master Deed and Bylaws</a>
-            <a href={Pheasant}>Pheasant Ridge Bylaws</a>
-            <a href={PreserveBylaws}>Preserve on Fellows Creek Bylaws</a>
-            <a href={PreserveMaster}>Preserve on Fellows Creek, Master Deed</a>
-            <a href={RavenfieldDisclosure}>Ravenfield Condominium Disclosure Statement</a>
-            <a href={RavefieldMaster}>Ravenfield Condominium Master Deed and Bylaws</a>
-            <a href={RavenfieldResponse}>Ravenfield Condominium Responsibility Matrix </a>
-            <a href={SalemManor}>Salem Manor </a>
-            <a href={SunflowerArticles}>Sunflower Village Articles of Incorparation </a>
-            <a href={SunflowerBylaws}>Sunflower Village Bylaws </a>
-            <a href={SunflowerRules}>Sunflower Village Rules and Regulations </a>
-            <a href={SunflowerCovenants}>Sunflower Village No 1 Covenants and Restrictions </a>
-            <a href={TheTraditions}>The Traditions Condominiums </a>
-            <a href={Trails}>Trails of Loon Lake Bylaws </a>
-            <a href={Whispering}>Whispering Meadows </a>
-            <a href={WildwoodSprings}>Wildwood Springs </a>
-            <a href={WindsorPark}>Windsor Park Bylaws </a>
-            <a href={Woodbridge}>Woodbridge Estates </a>
+        <div className canton>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}} href={AbbyWoods} >Abbey Woods Condos</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Buckingham}>Buckingham Place ByLaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CentralP}>Central Park Estates</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ChattertonSquare}>Chatterton Sqaure</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ChattertonVillage}>Chatterton Village</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CherryHillO}>Cherry Hill Orchard</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CherryHillV}>Cherry Hill Village</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={FWHByLaws}>Fairways West HOA Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={FWHCR}>Fairways-West-HOA-Covenants-Restrictions</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={FairwaysWLotMap}>Fairways West Lot Map</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={FairwaysWParkMap}>Fairways West Park Map</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ForestTrails}>ForestTrails</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={FranklinPBylaws}>Franklin Palmer Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={FranklinPCovenants}>Franklin Palmer Covenants</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LinksFellows}>Links at Fellows Creek Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OxfordParkBylaws}>Oxford Park Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OxfordParkMaster}>Oxford Park Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Palmer}>Palmer Place Master Deed and Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Pheasant}>Pheasant Ridge Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PreserveBylaws}>Preserve on Fellows Creek Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PreserveMaster}>Preserve on Fellows Creek, Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={RavenfieldDisclosure}>Ravenfield Condominium Disclosure Statement</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={RavefieldMaster}>Ravenfield Condominium Master Deed and Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={RavenfieldResponse}>Ravenfield Condominium Responsibility Matrix </a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={SalemManor}>Salem Manor </a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={SunflowerArticles}>Sunflower Village Articles of Incorparation </a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={SunflowerBylaws}>Sunflower Village Bylaws </a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={SunflowerRules}>Sunflower Village Rules and Regulations </a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={SunflowerCovenants}>Sunflower Village No 1 Covenants and Restrictions </a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheTraditions}>The Traditions Condominiums </a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Trails}>Trails of Loon Lake Bylaws </a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Whispering}>Whispering Meadows </a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WildwoodSprings}>Wildwood Springs </a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WindsorPark}>Windsor Park Bylaws </a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Woodbridge}>Woodbridge Estates </a>
             
      </div>
 

@@ -12,14 +12,14 @@ export default function WalledLake () {
 
     return(
         <div>
-            <a href={Foxcroft}>Foxcroft</a>
-            <a href={LakeVillageByLaws}>Walled Lake/Lake Village ByLaws</a>
-            <a href={LakeVillageMasterDeed}>Lake Village Master Deed</a>
-            <a href={LakeVillageNoisePolicy}>Lake Village Noise Policy</a>
-            <a href={LakeVillageParkingPolicy}>Lake Village Parking Policy</a>
-            <a href={LakeVillagePetPolicy}>Lake Village Pet Policy</a>
-            <a href={LakeVillageSatellitePolicy}>Lake Village Satellite Policy</a>
-            <a href={TrailWindsBylaws}>Trail Winds Bylaws</a> 
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Foxcroft}>Foxcroft</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LakeVillageByLaws}>Walled Lake/Lake Village ByLaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LakeVillageMasterDeed}>Lake Village Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LakeVillageNoisePolicy}>Lake Village Noise Policy</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LakeVillageParkingPolicy}>Lake Village Parking Policy</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LakeVillagePetPolicy}>Lake Village Pet Policy</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LakeVillageSatellitePolicy}>Lake Village Satellite Policy</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TrailWindsBylaws}>Trail Winds Bylaws</a> 
         </div>
     )
 }

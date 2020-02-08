@@ -7,7 +7,7 @@ export default function GreenOak () {
 
     return(
         <div>
-           <a href={TheFalls}>The Falls II of Hidden Lake ByLaws</a>
+           <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheFalls}>The Falls II of Hidden Lake ByLaws</a>
         </div>
     )
 }

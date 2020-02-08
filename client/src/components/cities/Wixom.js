@@ -9,10 +9,10 @@ export default function Wixom () {
 
     return(
         <div>
-            <a href={MapleForesMasterDeed}>Maple Fores Master Deed</a>
-            <a href={MapleForestCondominimus}>Maple Forest Condominimus</a>
-            <a href={TributeWixomBylaws}>Tribute Wixom Bylaws</a>
-            <a href={WexfordMews}>Wexford Mews</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MapleForesMasterDeed}>Maple Fores Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MapleForestCondominimus}>Maple Forest Condominimus</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TributeWixomBylaws}>Tribute Wixom Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WexfordMews}>Wexford Mews</a>
         </div>
     )
 }

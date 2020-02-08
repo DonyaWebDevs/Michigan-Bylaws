@@ -2,8 +2,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+.sub-header{
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    border-top: 1px solid black;
+    
+}
+
+.title{
+    justify-self: center;
+    padding-top: 2%;
+    grid-row: 2;
+   
+}
+
+.association{
+    grid-column-start: 2;
+    grid-row: 2;
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.info{
+    grid-column: 2;
+    grid-row: 3;
+    align-self: start;
+    font-size: 1rem;
+}
+
+.sub-header-column{
+    border-left:1px solid black;
+    grid-row: 1 / 5;
+    padding-left: 5%;
+}
+
+.buttons-container{
+    padding-top: 2%;
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.button-card{
+    width: 40%;
 }
 
 .button{
-    border: 1px solid yellow;
+    margin: 3%;
+    background: #dc143c;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 1rem;
+
+}
+.button:hover{
+    background: black;
 }

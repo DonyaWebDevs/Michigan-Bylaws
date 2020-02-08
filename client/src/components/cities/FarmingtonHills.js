@@ -17,18 +17,18 @@ export default function FarmingtonHills () {
 
     return(
         <div>
-            <a href={CarrollFarms}>Carroll Farms Condominium Bylaws</a>
-            <a href={Copperwood}>Copperwood East Bylaws</a>
-            <a href={EastLincolnshire}>East Lincolnshire</a>
-            <a href={EastLincolnshireBylaws}>East Lincolnshire Bylaws</a>
-            <a href={GoldviewPointe}>Golfview Pointe at Copper Creek</a>
-            <a href={OldHomestead}>Old Homestead Bylaws</a>
-            <a href={QuakerValley}>Quaker Valley Bylaws</a>
-            <a href={RiverPines}>River Pines Farmington Hills</a>
-            <a href={Saratoga}>Saratoga Master Deed</a>
-            <a href={TanaHillBylaws}>Tana Hill Bylaws</a>
-            <a href={TanaHilMaster}>Tana Hill Master Deed</a>
-            <a href={WoodlandPines}>Woodland Pines Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CarrollFarms}>Carroll Farms Condominium Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Copperwood}>Copperwood East Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={EastLincolnshire}>East Lincolnshire</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={EastLincolnshireBylaws}>East Lincolnshire Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={GoldviewPointe}>Golfview Pointe at Copper Creek</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OldHomestead}>Old Homestead Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={QuakerValley}>Quaker Valley Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={RiverPines}>River Pines Farmington Hills</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Saratoga}>Saratoga Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TanaHillBylaws}>Tana Hill Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TanaHilMaster}>Tana Hill Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WoodlandPines}>Woodland Pines Bylaws</a>
 
         </div>
     )

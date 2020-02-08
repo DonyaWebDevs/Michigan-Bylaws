@@ -7,8 +7,8 @@ export default function Milford () {
 
     return(
         <div>
-            <a href={MilfordHeights}>Milford Heights in Milford</a>
-            <a href={MilfordHidden}>Milford's Hidden Valley</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MilfordHeights}>Milford Heights in Milford</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MilfordHidden}>Milford's Hidden Valley</a>
         </div>
     )
 }

@@ -10,7 +10,7 @@ const Toggle = props => (
          <li><a href="/">Buying</a></li>
          <li><a href="/">Selling</a></li>
          <li><a href="/">Foreclosures</a></li>
-         <li><a href="/">About</a></li>
+         <li><a href="/">About Us</a></li>
          <li><a href="/">Contact Us</a></li>
          <li><a href="/">By Laws</a></li>
         </ul>

@@ -7,8 +7,8 @@ export default function Waterford () {
 
     return(
         <div>
-           <a href={ ForestbrookBylaws}>Forestbrook Bylaws</a>
-           <a href={ForestbrookHandbook}>Forestbrook Handbook</a>
+           <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ ForestbrookBylaws}>Forestbrook Bylaws</a>
+           <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ForestbrookHandbook}>Forestbrook Handbook</a>
            
         </div>
     )

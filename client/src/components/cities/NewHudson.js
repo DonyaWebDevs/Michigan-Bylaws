@@ -7,8 +7,8 @@ export default function NewHudson () {
 
     return(
         <div>
-            <a href={PondsAmend}>Ponds Bylaws 2nd Amend</a>
-            <a href={PondsBylaw}>Ponds Bylaws Min</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PondsAmend}>Ponds Bylaws 2nd Amend</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PondsBylaw}>Ponds Bylaws Min</a>
         </div>
     )
 }

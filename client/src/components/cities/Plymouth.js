@@ -60,61 +60,61 @@ export default function Plymouth () {
 
     return(
         <div>
-            <a href={AmendmentPhaseCountryClubVillageofPllymouthSub}>Amendment Phase 3 Country Club Village of Plymouth Sub No. 1</a>
-            <a href={AndoverLakeBylaws}>Andover Lake Bylaws</a>
-            <a href={AndoverLakesSubdivisionBylawsPlymouth}>Andover Lakes Subdivision Bylaws</a>
-            <a href={BeaconMeadows}>Beacon Meadows</a>
-            <a href={BeechwoodBylaws}>Beechwood Bylaws</a>
-            <a href={BylawsCountryClubVillageofPlymouthSub}>Bylaws Country Club Village of Plymouth Sub No. 1</a>
-            <a href={CharnwoodCondominiumsMasterDeedandBylaws}>Charnwood Condominiums Master Deed and Bylaws</a>
-            <a href={ColonyFarmsPlymouthBylaws}>Colony Farms Plymouth Bylaws</a>
-            <a href={ColonyFarmsPlymouthRestatedSubAgreementBylaws}>Colony Farms Plymouth Restated Sub Agreement Bylaws</a>
-            <a href={CountryClubVillage}>Country Club Village</a>
-            <a href={CountryClubVillageBylawsandAmendments}> Country Club Village Bylaws and Amendments</a>
-            <a href={CountryClubVillageFinancials}>Country Club Village Financials</a>
-            <a href={CountryClubVillageMasterDeed}>Country Club Village Master Deed</a>
-            <a href={CovenantsCountryClubVillageofPlymouthSubNo}>Covenants Country Club Village of Plymouth Sub No. 1</a>
-            <a href={DeerCreekBylaws}>Deer Creek Bylaws</a>
-            <a href={EatonEstates}>Eaton Estates</a>
-            <a href={HiddenRidge}>Hidden Ridge</a>
-            <a href={HuntersParkCondosBylaws}>Hunters Park Condos Bylaws</a>
-            <a href={HuntersParkCondosMasterDeed}>Hunters Park Condos Master Deed</a>
-            <a href={HuntingtonPark}>Huntington Park</a>
-            <a href={LakeviewCondosBylaws}>Lakeview Condos Bylaws</a>
-            <a href={MallardsPondBylaws}>Mallards Pond By Laws</a>
-            <a href={MallardsPondMaintenanceChart}>Mallards Pond Maintenance Chart</a>
-            <a href={MallardsPondMasterDeed}>Mallards Pond Master Deed</a>
-            <a href={MeadowHill}>Meadow Hill</a>
-            <a href={PlymouthCommonsBylaws}>Plymouth Commons Bylaws</a>
-            <a href={PlymouthCornersMasterDeed}>Plymouth Corners Master Deed</a>
-            <a href={PlymouthPointeBylaws}>Plymouth Pointe Bylaws</a>
-            <a href={PlymouthVillageCondominiumBylaws}>Plymouth Village Condominium Bylaws</a>
-            <a href={PlymouthVillageCondominiumFirstAmendment}>Plymouth Village Condominium FirstAmendment</a>
-            <a href={PlymouthVillageCondominiumMasterDeed}>Plymouth Village Condominium Master Deed</a>
-            <a href={PlymouthVillageCondominiumThirdAmendment}>Plymouth Village Condominium Third Amendment</a>
-            <a href={RidgewoodHillsDeedRestrictions}>Ridgewood Hills Deed Restrictions</a>
-            <a href={Saddlebrook}>Saddlebrook</a>
-            <a href={SubBuildingUseRestrictionsWestbriarVillage1}>Sub #1 Building & Use Restrictions Westbriar Village</a>
-            <a href={SubBylawsWestbriarVillage1}>Sub #1 Bylaws Westbriar Village</a>
-            <a href={SubBuildingUseRestrictionsWestbriarVillage2}>Sub #2 Building & Use Restrictions Westbriar Village</a>
-            <a href={SubBylawsWestbriarVillage2}>Sub #2 Bylaws Westbriar Village</a>
-            <a href={TheMeadowsAmendment1}>The Meadows Amendment 1</a>
-            <a href={TheMeadowsAmendment2}>The Meadows Amendment 2</a>
-            <a href={TheMeadowsAmendment3}>The Meadows Amendment 3</a>
-            <a href={TheMeadowsAmendment4}>The Meadows Amendment 4</a>
-            <a href={TheMeadowsAmendment5}>The Meadows Amendment 5</a>
-            <a href={TheMeadowsAmendment6}>The Meadows Amendment 6</a>
-            <a href={TheMeadowsBylaws}>The Meadows Bylaws</a>
-            <a href={TheMeadowsMasterDeeds}>The Meadows Master Deeds</a>
-            <a href={TheRavinesofPlymouth}>The Ravines of Plymouth</a>
-            <a href={TrailwoodAmendmentstoCovenantsConditions}>Trailwood Amendments to Covenants Conditions</a>
-            <a href={TrailwoodBylaws}>Trailwood Bylaws</a>
-            <a href={TrailwoodCovenantConditionsRestrictions}>Trailwood Covenant Conditions Restrictions</a>
-            <a href={UplandsMasterDeedBylaws}>Uplands Master Deed Bylaws</a>
-            <a href={VillageManorBylaws}>Village Manor Bylaws</a>
-            <a href={WoodgateCondoMasterDeed}>Woodgate Condo Master Deed</a>
-            <a href={WoodgateCondosBylaws}>Woodgate Condos Bylaws</a>
-            <a href={YorktownBylaws}>Yorktown Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={AmendmentPhaseCountryClubVillageofPllymouthSub}>Amendment Phase 3 Country Club Village of Plymouth Sub No. 1</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={AndoverLakeBylaws}>Andover Lake Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={AndoverLakesSubdivisionBylawsPlymouth}>Andover Lakes Subdivision Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BeaconMeadows}>Beacon Meadows</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BeechwoodBylaws}>Beechwood Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BylawsCountryClubVillageofPlymouthSub}>Bylaws Country Club Village of Plymouth Sub No. 1</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CharnwoodCondominiumsMasterDeedandBylaws}>Charnwood Condominiums Master Deed and Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ColonyFarmsPlymouthBylaws}>Colony Farms Plymouth Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ColonyFarmsPlymouthRestatedSubAgreementBylaws}>Colony Farms Plymouth Restated Sub Agreement Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CountryClubVillage}>Country Club Village</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CountryClubVillageBylawsandAmendments}> Country Club Village Bylaws and Amendments</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CountryClubVillageFinancials}>Country Club Village Financials</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CountryClubVillageMasterDeed}>Country Club Village Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CovenantsCountryClubVillageofPlymouthSubNo}>Covenants Country Club Village of Plymouth Sub No. 1</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={DeerCreekBylaws}>Deer Creek Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={EatonEstates}>Eaton Estates</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HiddenRidge}>Hidden Ridge</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HuntersParkCondosBylaws}>Hunters Park Condos Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HuntersParkCondosMasterDeed}>Hunters Park Condos Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HuntingtonPark}>Huntington Park</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LakeviewCondosBylaws}>Lakeview Condos Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MallardsPondBylaws}>Mallards Pond By Laws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MallardsPondMaintenanceChart}>Mallards Pond Maintenance Chart</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MallardsPondMasterDeed}>Mallards Pond Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MeadowHill}>Meadow Hill</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PlymouthCommonsBylaws}>Plymouth Commons Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PlymouthCornersMasterDeed}>Plymouth Corners Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PlymouthPointeBylaws}>Plymouth Pointe Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PlymouthVillageCondominiumBylaws}>Plymouth Village Condominium Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PlymouthVillageCondominiumFirstAmendment}>Plymouth Village Condominium FirstAmendment</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PlymouthVillageCondominiumMasterDeed}>Plymouth Village Condominium Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PlymouthVillageCondominiumThirdAmendment}>Plymouth Village Condominium Third Amendment</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={RidgewoodHillsDeedRestrictions}>Ridgewood Hills Deed Restrictions</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Saddlebrook}>Saddlebrook</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={SubBuildingUseRestrictionsWestbriarVillage1}>Sub #1 Building & Use Restrictions Westbriar Village</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={SubBylawsWestbriarVillage1}>Sub #1 Bylaws Westbriar Village</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={SubBuildingUseRestrictionsWestbriarVillage2}>Sub #2 Building & Use Restrictions Westbriar Village</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={SubBylawsWestbriarVillage2}>Sub #2 Bylaws Westbriar Village</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheMeadowsAmendment1}>The Meadows Amendment 1</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheMeadowsAmendment2}>The Meadows Amendment 2</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheMeadowsAmendment3}>The Meadows Amendment 3</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheMeadowsAmendment4}>The Meadows Amendment 4</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheMeadowsAmendment5}>The Meadows Amendment 5</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheMeadowsAmendment6}>The Meadows Amendment 6</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheMeadowsBylaws}>The Meadows Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheMeadowsMasterDeeds}>The Meadows Master Deeds</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheRavinesofPlymouth}>The Ravines of Plymouth</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TrailwoodAmendmentstoCovenantsConditions}>Trailwood Amendments to Covenants Conditions</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TrailwoodBylaws}>Trailwood Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TrailwoodCovenantConditionsRestrictions}>Trailwood Covenant Conditions Restrictions</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={UplandsMasterDeedBylaws}>Uplands Master Deed Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={VillageManorBylaws}>Village Manor Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WoodgateCondoMasterDeed}>Woodgate Condo Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WoodgateCondosBylaws}>Woodgate Condos Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={YorktownBylaws}>Yorktown Bylaws</a>
 
         </div>
     )

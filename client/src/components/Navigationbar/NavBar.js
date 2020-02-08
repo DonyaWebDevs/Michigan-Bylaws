@@ -14,6 +14,7 @@ const NavBar = props => (
                     <img src={Kevin} alt="Logo"/>            
                 </a>
             </div>
+            
             <div className="nav_icons">
                 <div className="size">
                     <a href="mailto:soldbycermak@gmail.com">

@@ -56,55 +56,55 @@ export default function Novi () {
 
     return(
         <div>
-            <a href={AddingtonBylaws}>Addington Bylaws</a>
-            <a href={ArrowonPines}>Arrowon Pines</a>
-            <a href={AutumnParkBylawsNovi}>Autumn Park Bylaws Novi</a>
-            <a href={BarclayBylaws}>Barclay Bylaws</a>
-            <a href={BellaTerraBylaws}>Bella Terra Bylaws</a>
-            <a href={BellaTerraMasterDeed}>Bella Terra Master Deed</a>
-            <a href={Bellagio}>Bellagio</a>
-            <a href={BradfordBylaws}>Bradford Bylaws</a>
-            <a href={BradfordDeclarationofEasementsCovenantsRestriction}>Bradford Declaration of Easements Covenants Restriction</a>
-            <a href={BriarwoodVillageBylaws}>Briarwood Village Bylaws</a>
-            <a href={BristolCornersBylaws}>Bristol Corners Bylaws</a>
-            <a href={ConnemaraBylaws}>Connemara Bylaws</a>
-            <a href={CountryPlaceAmendedandRestated}>Country Place Amendedand Restated</a>
-            <a href={CountryPlaceCondominiumAssociationBylaws}>Country Place Condominium Association Bylaws</a>
-            <a href={CountryPlaceEmergencyInformation}>Country Place Emergency Information</a>
-            <a href={CountryPlaceResidentsHandbook}>Country Place Residents Handbook</a>
-            <a href={CrosswindsWestCondoResponsibilityChart}>Crosswinds West Condo Responsibility Chart</a>
-            <a href={CrosswindsWestMasterDeedbylaws}>Crosswinds West Master Deed Bylaws</a>
-            <a href={EnclaveBylaws}>Enclave Bylaws</a>
-            <a href={EnclaveResponsibilitiesMatrix}>Enclave Responsibilities Matrix</a>
-            <a href={IslandLakeShoresNorthBylaws}>Island Lake Shores North Bylaws</a>
-            <a href={IslandLakeSouthHarborCondos}>Island Lake South Harbor Condos</a>
-            <a href={IslandLakeVineyardsBylaws}>Island Lake Vineyards Bylaws</a>
-            <a href={IslandLakeVineyardsBylawsAmendment}>Island Lake Vineyards Bylaws Amendment</a>
-            <a href={KirkwayEstates}>Kirkway Estates</a>
-            <a href={KnightsbridgeGateMasterDeed}>Knightsbridge Gate Master Deed</a>
-            <a href={LakewoodeParkHomes}> Lakewood Park Homes</a>
-            <a href={LenoxParkBylaws}>Lenox Park By laws</a>
-            <a href={LexingtonGreenBylaws}>Lexington Green By laws</a>
-            <a href={LexingtonGreenCovenants}>Lexington Green Covenants</a>
-            <a href={MaplesofNovi}>Maples of Novi</a>
-            <a href={MayburyParkEstates}>Maybury Park Estates</a>
-            <a href={OldeOrchardCountryhomes}>Olde Orchard Country homes</a>
-            <a href={OrchardHillsNorth1stAmendmenttoMasterDeed}>Orchard Hills North 1st Amendment to MasterDeed</a>
-            <a href={OrchardhillsNorthMasterDeedRecorded}>Orchard Hills North Master Deed Recorded</a>
-            <a href={ParkPlaceEstateBylaws}>Park Place Estate Bylaws</a>
-            <a href={RoyalCrownEstates}>Royal Crown Estates</a>
-            <a href={SouthwyckofNovi}>Southwyck of Novi</a>
-            <a href={TimberRidgeBylaws}>Timbe rRidge Bylaws</a>
-            <a href={TimberRidgeDeclarationsCovenants}>Timber Ridge Declarations Covenants</a>
-            <a href={VillagewoodPlace}>Villagewood Place</a>
-            <a href={WaldenwoodsIIBylaws}>Walden Woods II Bylaws</a>
-            <a href={WeathervaneBylaws}>Weathervane Bylaws</a>
-            <a href={WeathervaneMasterDeed}>Weathervane Master Deed</a>
-            <a href={WhisperingMeadowsCovenants}>Whispering Meadows Covenants</a>
-            <a href={WillowbrookCommunityAssociation}>Willowbrook Community Association</a>
-            <a href={WindridgePlacebylaws}>Windridge Place Bylaws </a> 
-            <a href={WindridgePlaceDeclarationofCovenants}>Windridge Place Declaration of Covenants</a>
-            <a href={Yorkshire}>Yorkshire Place</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={AddingtonBylaws}>Addington Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ArrowonPines}>Arrowon Pines</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={AutumnParkBylawsNovi}>Autumn Park Bylaws Novi</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BarclayBylaws}>Barclay Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BellaTerraBylaws}>Bella Terra Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BellaTerraMasterDeed}>Bella Terra Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Bellagio}>Bellagio</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BradfordBylaws}>Bradford Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BradfordDeclarationofEasementsCovenantsRestriction}>Bradford Declaration of Easements Covenants Restriction</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BriarwoodVillageBylaws}>Briarwood Village Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BristolCornersBylaws}>Bristol Corners Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ConnemaraBylaws}>Connemara Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CountryPlaceAmendedandRestated}>Country Place Amendedand Restated</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CountryPlaceCondominiumAssociationBylaws}>Country Place Condominium Association Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CountryPlaceEmergencyInformation}>Country Place Emergency Information</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CountryPlaceResidentsHandbook}>Country Place Residents Handbook</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CrosswindsWestCondoResponsibilityChart}>Crosswinds West Condo Responsibility Chart</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CrosswindsWestMasterDeedbylaws}>Crosswinds West Master Deed Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={EnclaveBylaws}>Enclave Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={EnclaveResponsibilitiesMatrix}>Enclave Responsibilities Matrix</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={IslandLakeShoresNorthBylaws}>Island Lake Shores North Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={IslandLakeSouthHarborCondos}>Island Lake South Harbor Condos</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={IslandLakeVineyardsBylaws}>Island Lake Vineyards Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={IslandLakeVineyardsBylawsAmendment}>Island Lake Vineyards Bylaws Amendment</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={KirkwayEstates}>Kirkway Estates</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={KnightsbridgeGateMasterDeed}>Knightsbridge Gate Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LakewoodeParkHomes}> Lakewood Park Homes</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LenoxParkBylaws}>Lenox Park By laws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LexingtonGreenBylaws}>Lexington Green By laws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LexingtonGreenCovenants}>Lexington Green Covenants</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MaplesofNovi}>Maples of Novi</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MayburyParkEstates}>Maybury Park Estates</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OldeOrchardCountryhomes}>Olde Orchard Country homes</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OrchardHillsNorth1stAmendmenttoMasterDeed}>Orchard Hills North 1st Amendment to MasterDeed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OrchardhillsNorthMasterDeedRecorded}>Orchard Hills North Master Deed Recorded</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ParkPlaceEstateBylaws}>Park Place Estate Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={RoyalCrownEstates}>Royal Crown Estates</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={SouthwyckofNovi}>Southwyck of Novi</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TimberRidgeBylaws}>Timbe rRidge Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TimberRidgeDeclarationsCovenants}>Timber Ridge Declarations Covenants</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={VillagewoodPlace}>Villagewood Place</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WaldenwoodsIIBylaws}>Walden Woods II Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WeathervaneBylaws}>Weathervane Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WeathervaneMasterDeed}>Weathervane Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WhisperingMeadowsCovenants}>Whispering Meadows Covenants</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WillowbrookCommunityAssociation}>Willowbrook Community Association</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WindridgePlacebylaws}>Windridge Place Bylaws </a> 
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WindridgePlaceDeclarationofCovenants}>Windridge Place Declaration of Covenants</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Yorkshire}>Yorkshire Place</a>
 
         </div>
     )
