@@ -10,11 +10,11 @@ export default function Westland () {
 
     return(
         <div>
-           <a href={BrownstoneofWestlandBylaws}>Brownstone of Westland Bylaws</a>
-           <a href={CastlewoodBylaws}>Castlewood Bylaws</a>
-           <a href={CastlewoodMasterDeed}>Castlewood Master Deed</a>
-           <a href={RiverParkCourtBylaws}>River Park Court Bylaws</a>
-           <a href={RiverParkCourtMasterDeed}>River Park Court Master Deed</a>
+           <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BrownstoneofWestlandBylaws}>Brownstone of Westland Bylaws</a>
+           <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CastlewoodBylaws}>Castlewood Bylaws</a>
+           <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CastlewoodMasterDeed}>Castlewood Master Deed</a>
+           <a style={{color: 'black', display: 'flex', margin: '2%'}}href={RiverParkCourtBylaws}>River Park Court Bylaws</a>
+           <a style={{color: 'black', display: 'flex', margin: '2%'}}href={RiverParkCourtMasterDeed}>River Park Court Master Deed</a>
            
         </div>
     )

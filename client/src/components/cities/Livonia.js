@@ -20,20 +20,20 @@ export default function Livonia () {
 
     return(
         <div>
-            <a href={AspenPlace}>Aspen Place</a>
-            <a href={Brookside}>Brookside Bylaws Livonia</a>
-            <a href={CaliburnDec}>Caliburn Declaration of Restrictions</a>
-            <a href={CaliburnSub}>Caliburn Sub Bylaws</a>
-            <a href={Camden}>Camden Park</a>
-            <a href={GolfRidgeBylaws}>Golf Ridge Villas Bylaws</a>
-            <a href={GolfRidgeMaster}>Golf Ridge Villas Master Deed</a>
-            <a href={IdyleHills}>Idyle Hills Estates Civic Association Bylaws</a>
-            <a href={LaurelWoods}>Laurel Woods</a>
-            <a href={NewburghLaws}>Newburgh Park Bylaws</a>
-            <a href={NewburghMaster}>Newburgh Park Master Deed</a>
-            <a href={Nottingham}>Nottingham Village</a>
-            <a href={ValleyWood}>Valley Wood</a>
-            <a href={Woods}>Woods</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={AspenPlace}>Aspen Place</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Brookside}>Brookside Bylaws Livonia</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CaliburnDec}>Caliburn Declaration of Restrictions</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CaliburnSub}>Caliburn Sub Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Camden}>Camden Park</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={GolfRidgeBylaws}>Golf Ridge Villas Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={GolfRidgeMaster}>Golf Ridge Villas Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={IdyleHills}>Idyle Hills Estates Civic Association Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LaurelWoods}>Laurel Woods</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NewburghLaws}>Newburgh Park Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NewburghMaster}>Newburgh Park Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Nottingham}>Nottingham Village</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ValleyWood}>Valley Wood</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Woods}>Woods</a>
 
         </div>
     )

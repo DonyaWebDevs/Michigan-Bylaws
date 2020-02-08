@@ -33,30 +33,30 @@ export default function SouthLyon () {
 
     return(
         <div>
-            <a href={BrookwoodVillage}>Brookwood Village</a>
-            <a href={CarriageClub}>Carriage Club</a>
-            <a href={CarriageTrace}>Carriage Trace</a>
-            <a href={CedarRidgeBylaws}>Cedar Ridge Bylaws</a>
-            <a href={GlensatCrystalCreek}>Glens at Crystal Creek</a>
-            <a href={GlensatCrystalCreekHandbook}>Glens at Crysta Cree kHandbook</a>
-            <a href={GreenockHills}>Greenock Hills</a>
-            <a href={HiddenTimbers}>Hidden Timbers</a>
-            <a href={KirkwayEstatesMasterDeedandBylaws}>Kirkway Estates Master Deed and Bylaws</a>
-            <a href={NichwaghRidgeArticlesofIncorporation}>Nichwagh Ridge Articles of Incorporation</a>
-            <a href={NichwaghRidgeBylaws}>Nichwagh Ridge Bylaws</a>
-            <a href={NichwaghRidgeFirstAmended}>Nichwagh Ridge First Amended</a>
-            <a href={NichwaghRidgeMasterDeed}>Nichwagh Ridge Master Deed</a>
-            <a href={OakCreek}>Oak Creek</a>
-            <a href={OakCreekVillageBylaws}>Oak Creek Village Bylaws</a>
-            <a href={ParkwoodsBylaws}>Parkwoods Bylaws</a>
-            <a href={ParkwoodsDCCR}>Parkwoods DCCR</a>
-            <a href={ParkwoodsDCCRAmendment}>Parkwoods DCCR Amendment</a>
-            <a href={PinehurstAcresMasterDeed}>Pinehurst Acres Master Deed</a>
-            <a href={PinhurstAcresBylaws}>Pnehurst Acres Bylaws</a>
-            <a href={Tanglewood}>Tanglewood</a>
-            <a href={TheHeightsatElkowFarmsDisclosureStatement}>The Heights at Elkow Farms Disclosure Statement</a>
-            <a href={TheHeightsatElkowFarmsMasterDeed}>The Heights at Elkow Farms Master Deed</a>
-            <a href={WoodwindVillage}>Woodwind Village</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BrookwoodVillage}>Brookwood Village</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CarriageClub}>Carriage Club</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CarriageTrace}>Carriage Trace</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CedarRidgeBylaws}>Cedar Ridge Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={GlensatCrystalCreek}>Glens at Crystal Creek</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={GlensatCrystalCreekHandbook}>Glens at Crysta Cree kHandbook</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={GreenockHills}>Greenock Hills</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HiddenTimbers}>Hidden Timbers</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={KirkwayEstatesMasterDeedandBylaws}>Kirkway Estates Master Deed and Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NichwaghRidgeArticlesofIncorporation}>Nichwagh Ridge Articles of Incorporation</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NichwaghRidgeBylaws}>Nichwagh Ridge Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NichwaghRidgeFirstAmended}>Nichwagh Ridge First Amended</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NichwaghRidgeMasterDeed}>Nichwagh Ridge Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OakCreek}>Oak Creek</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OakCreekVillageBylaws}>Oak Creek Village Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ParkwoodsBylaws}>Parkwoods Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ParkwoodsDCCR}>Parkwoods DCCR</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ParkwoodsDCCRAmendment}>Parkwoods DCCR Amendment</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PinehurstAcresMasterDeed}>Pinehurst Acres Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={PinhurstAcresBylaws}>Pnehurst Acres Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Tanglewood}>Tanglewood</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheHeightsatElkowFarmsDisclosureStatement}>The Heights at Elkow Farms Disclosure Statement</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TheHeightsatElkowFarmsMasterDeed}>The Heights at Elkow Farms Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WoodwindVillage}>Woodwind Village</a>
         </div>
     )
 }

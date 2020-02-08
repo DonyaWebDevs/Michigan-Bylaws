@@ -11,13 +11,13 @@ export default function Commerce () {
 
     return(
         <div>
-            <a href={BridgePointe}>Bridge Pointe 1st Restated Bylaws</a>
-            <a href={ColonyFarms}>Colony Farms ByLaws</a>
-            <a href={GreenbriarMaster}>Greenbriar Master Deed</a>
-            <a href={HillsofBogie}>Hills of Bogie Lake Bylaws</a>
-            <a href={MapleCrossing}>Maple Crossing Master Deed</a>
-            <a href={OakbrookPointe}>/Oakbrook Pointe Bylaws</a>
-            <a href={OakbrookPointeAmended}>Oakbrook Pointe Bylaws Amended 2007</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BridgePointe}>Bridge Pointe 1st Restated Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ColonyFarms}>Colony Farms ByLaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={GreenbriarMaster}>Greenbriar Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HillsofBogie}>Hills of Bogie Lake Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MapleCrossing}>Maple Crossing Master Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OakbrookPointe}>Oakbrook Pointe Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OakbrookPointeAmended}>Oakbrook Pointe Bylaws Amended 2007</a>
 
         </div>
     )

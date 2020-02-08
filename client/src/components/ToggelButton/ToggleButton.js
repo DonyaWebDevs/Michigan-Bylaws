@@ -26,20 +26,19 @@ const ToggleButton = props => {
         <DropdownMenu right>
          
           
-          <DropdownItem><a href="/">Item </a></DropdownItem>
-          <DropdownItem><a href="/">Home</a></DropdownItem>
-         <DropdownItem><a href="/">Advanced Search</a></DropdownItem>
-         <DropdownItem><a href="/">Market Reports</a></DropdownItem>
-         <DropdownItem><a href="/">Buying</a></DropdownItem>
-         <DropdownItem><a href="/">Selling</a></DropdownItem>
-         <DropdownItem><a href="/">Foreclosures</a></DropdownItem>
-         <DropdownItem><a href="/">About</a></DropdownItem>
-         <DropdownItem><a href="/">Contact Us</a></DropdownItem>
+          
+         <DropdownItem><a href="https://www.soldbycermak.com/">Home</a></DropdownItem>
+         <DropdownItem><a href="https://www.soldbycermak.com/search/advanced_search/">Advanced Search</a></DropdownItem>
+         <DropdownItem><a href="https://www.soldbycermak.com/search/market_report_search/">Market Reports</a></DropdownItem>
+         <DropdownItem><a href="https://www.soldbycermak.com/buying/">Buying</a></DropdownItem>
+         <DropdownItem><a href="https://www.soldbycermak.com/selling/">Selling</a></DropdownItem>
+         <DropdownItem><a href="https://www.soldbycermak.com/foreclosures/">Foreclosures</a></DropdownItem>
+         <DropdownItem><a href="https://www.soldbycermak.com/about/">About Us</a></DropdownItem>
          <DropdownItem><a href="/">By Laws</a></DropdownItem>
           
         </DropdownMenu>
       </Dropdown>
-       
+      
     )
 }
 

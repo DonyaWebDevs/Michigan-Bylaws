@@ -10,10 +10,10 @@ export default function Farmington () {
 
     return(
         <div>
-            <a href={DrakesCrossing}>Drakes Crossing Bylaws</a>
-            <a href={HuntersGrove}>Hunters Grove Farmington</a>
-            <a href={RiverPines}>River Pines of Farmington Bylaws</a>
-            <a href={StamanAcres}>Staman Acres</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={DrakesCrossing}>Drakes Crossing Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HuntersGrove}>Hunters Grove Farmington</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={RiverPines}>River Pines of Farmington Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={StamanAcres}>Staman Acres</a>
         </div>
     )
 }
