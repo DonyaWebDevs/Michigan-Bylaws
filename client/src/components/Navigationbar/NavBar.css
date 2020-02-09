@@ -6,11 +6,11 @@
 }
 
 .navbar_logo{
-    width: 60%;
+    width: 50%;
 }
 
 .navbar_logo img{
-    width:80%;
+    width:90%;
 }
 
 
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;  
     align-items: center;
-    width: 40%;
+    width: 50%;
  }
 
 .size:hover{
