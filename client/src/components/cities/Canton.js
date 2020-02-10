@@ -14,6 +14,9 @@ import FairwaysWParkMap from "../../ByLaws/Canton/Fairways West Park Map/Fairway
 import ForestTrails from "../../ByLaws/Canton/Forest Trails/Forest-Trails.pdf";
 import FranklinPBylaws from "../../ByLaws/Canton/Franklin Palmer Bylaws/Franklin-Palmer-bylaws.pdf";
 import FranklinPCovenants from "../../ByLaws/Canton/Franklin Palmer Covenants/Franklin-Palmer-covenants.pdf";
+import HiddenGlenBylaws from "../../soldbycermak/Canton2/Hidden Glen Bylaws/HiddenGlenBylaws.pdf";
+import HiddenGlenRules from "../../soldbycermak/Canton2/Rules and Regulations/Rules and Regulations.pdf";
+import HuntersGrove from "../../soldbycermak/Canton2/Hunters Grove Bylaws/Hunters Grove Bylaws (002).pdf";
 import LinksFellows from "../../ByLaws/Canton/Links at Fellows Creek Bylaws/LinksatFellowsCreekbylaws.pdf";
 import OxfordParkBylaws from "../../ByLaws/Canton/Oxford Park Bylaws/Oxford-Park-By-Laws.pdf";
 import OxfordParkMaster from "../../ByLaws/Canton/Oxford Park Master Deed/Oxford-Park-Master-Deed.pdf";
@@ -58,6 +61,9 @@ export default function Canton () {
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ForestTrails}>ForestTrails</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={FranklinPBylaws}>Franklin Palmer Bylaws</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={FranklinPCovenants}>Franklin Palmer Covenants</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HiddenGlenBylaws}>Hidden Glen Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HiddenGlenRules}>Hidden Glen Rules and Regulations</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HuntersGrove}>Hunters Grove Bylaws</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LinksFellows}>Links at Fellows Creek Bylaws</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OxfordParkBylaws}>Oxford Park Bylaws</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={OxfordParkMaster}>Oxford Park Master Deed</a>
