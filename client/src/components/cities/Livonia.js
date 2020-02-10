@@ -15,12 +15,19 @@ import Nottingham from "../../ByLaws/Livonia/Nottingham Village/nottingham-villa
 import ValleyWood from "../../ByLaws/Livonia/Valley Wood/Valley-Wood.pdf"
 import Woods from "../../ByLaws/Livonia/Woods/woods.pdf"
 
+import BellCreek from "../../soldbycermak/Livonia2/Bell Creek Bylaws/BellCreekBylaws.pdf";
+import LaurelPark from "../../soldbycermak/Livonia2/Laurel Park South Bylaws/Laurel Park South Bylaws.pdf";
+import MysticCreek from "../../soldbycermak/Livonia2/Mystic Creek Master Deed Part 2/Mystic Creek Master Deed Part 2 Recorded.pdf";
+import LaurelWoods2 from "../../soldbycermak/Livonia2/Restated Master Deed and Bylaws/Restated Master Deed and Bylaws.pdf";
+
 
 export default function Livonia () {
 
     return(
         <div>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={AspenPlace}>Aspen Place</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BellCreek}>Bell Creek Bylaws</a>
+
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Brookside}>Brookside Bylaws Livonia</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CaliburnDec}>Caliburn Declaration of Restrictions</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CaliburnSub}>Caliburn Sub Bylaws</a>
@@ -28,7 +35,10 @@ export default function Livonia () {
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={GolfRidgeBylaws}>Golf Ridge Villas Bylaws</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={GolfRidgeMaster}>Golf Ridge Villas Master Deed</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={IdyleHills}>Idyle Hills Estates Civic Association Bylaws</a>
-            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LaurelWoods}>Laurel Woods</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LaurelPark}>Laurel Park South Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LaurelWoods}>Laurel Woods Bylaws</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={LaurelWoods2}>Laurel Woods Restate Amended and  Mater Deed</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MysticCreek}>Mystic Creek Master Deed Part 2 Recorded</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NewburghLaws}>Newburgh Park Bylaws</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NewburghMaster}>Newburgh Park Master Deed</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={Nottingham}>Nottingham Village</a>
