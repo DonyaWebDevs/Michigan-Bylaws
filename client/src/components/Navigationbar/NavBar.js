@@ -10,7 +10,7 @@ const NavBar = props => (
     <header className="navigationbar">
         <nav className="navbar">
             <div className="navbar_logo">
-                <a href="/">
+                <a href="https://www.soldbycermak.com/">
                     <img src={Kevin} alt="Logo"/>            
                 </a>
             </div>
