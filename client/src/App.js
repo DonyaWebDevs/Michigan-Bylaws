@@ -23,6 +23,9 @@ import WalledLake from './components/cities/WalledLake';
 import WaterFord from './components/cities/Waterford';
 import Westland from './components/cities/Westland';
 import Wixom from './components/cities/Wixom';
+import WestBloomfield from './components/cities/WestBloomfield';
+import Southfield from './components/cities/Southfield';
+import Brighton from './components/cities/Brighton';
 
 
 
@@ -46,6 +49,10 @@ export default function App () {
   const [waterford, setWaterford] = useState(false);
   const [westland, setWestland] = useState(false);
   const [wixom, setWixom] = useState(false);
+  const [brighton, setBrighton] = useState(false);
+  const [westBloomfield, setWestBloomfield] = useState(false);
+  const [southfield, setSouthfield] = useState(false);
+
   
   const tCanton = () => setCanton(!canton);
   const tCommerce = () => setCommerce(!commerce);
@@ -63,6 +70,10 @@ export default function App () {
   const tWaterford = () => setWaterford(!waterford);
   const tWestland = () => setWestland(!westland);
   const tWixom = () => setWixom(!wixom);
+  const tWestBloomfield = () => setWestBloomfield(!westBloomfield); 
+  const tBrighton= () => setBrighton(!brighton);
+  const tSouthfield = () => setSouthfield(!southfield);
+
 
 
 
@@ -91,6 +102,16 @@ export default function App () {
 
           </section>
           <div className="buttons-container" >
+          <div className="button-card">
+            <Button onClick={tBrighton} className="button">Brighton</Button>
+            <Collapse isOpen={brighton}>
+              <Card>
+                <CardBody>
+                  <Brighton />
+                </CardBody>
+              </Card>
+            </Collapse>
+          </div> 
           <div className="button-card">
             <Button  onClick={tCanton} className="button">Canton</Button>
             <Collapse isOpen={canton}>
@@ -202,6 +223,16 @@ export default function App () {
             </Collapse>
           </div>
           <div className="button-card">
+            <Button onClick={tSouthfield} className="button">South Field</Button>
+            <Collapse isOpen={southfield}>
+              <Card>
+                <CardBody>
+                  <Southfield />
+                </CardBody>
+              </Card>
+            </Collapse>
+          </div>
+          <div className="button-card">
             <Button onClick={tSouthLyon} className="button">South Lyon</Button>
             <Collapse isOpen={southLyon}>
               <Card>
@@ -232,6 +263,16 @@ export default function App () {
             </Collapse>
           </div>
           <div className="button-card">
+            <Button onClick={tWestBloomfield} className="button">West Bloomfield</Button>
+            <Collapse isOpen={westBloomfield}>
+              <Card>
+                <CardBody>
+                  <WestBloomfield />
+                </CardBody>
+              </Card>
+            </Collapse>
+          </div>
+          <div className="button-card">
             <Button onClick={tWestland} className="button">Westland</Button>
             <Collapse isOpen={westland}>
               <Card>
@@ -253,28 +294,6 @@ export default function App () {
           </div>
           </div>
           
-          
-          <div>
-          {/* Routing below
-          <Route exact path="/" component={Wheel}/>
-          <Route path="/canton" component={Canton} />
-          <Route path="/commerce" component={Commerce} />
-          <Route path="/farmington" component={Farmington} />
-          <Route path="/farmington-hills" component={FarmingtonHills} />
-          <Route path="/green-oak" component={GreenOak} />
-          <Route path="/livonia" component={Livonia} />
-          <Route path="/milford" component={Milford} />
-          <Route path="/new-hudson" component={NewHudson} />
-          <Route path="/novi" component={Novi} />
-          <Route path="/plymouth" component={Plymouth} />
-          <Route path="/south-lyon" component={SouthLyon} />
-          <Route path="/walled-lake" component={WalledLake} />
-          <Route path="/waterford" component={WaterFord} />
-          <Route path="/westland" component={Westland} />
-          <Route path="/wixom" component={Wixom} /> */}
-
-
-        </div>
         
         <Footer />
       </div>
