@@ -64,3 +64,16 @@
 .button:hover{
     background: black;
 }
+
+@media (min-width: 796px) {
+    .title{
+        font-size: 3rem;
+        align-self: center;
+    }
+
+    
+
+    .button{
+        font-size: 1.25rem;
+    }
+}
