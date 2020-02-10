@@ -1,18 +1,12 @@
 # Michigan-Bylaws
-A react application that contains the Bylaws for some communities in Michigan. 
+A react application that contains the Bylaws for soldbycermak.com. A real estate brokerage firm that is wanting to have its own bylaws section. Check it out. https://soldbycermakbylaws.now.sh/
 
 ## Getting Started
-
-Clone repo into your terminal and create your own branch -- MAKE SURE YOU DON'T FORK REPO BECAUSE WE ARE ALL EDITING OFF THE SAME REPO AND PUSHING TO MASTER
-
-```
-create-react-app client
-```
-
-I am creating a new react app so you will need to just cd into it
+This is a web application that was created for mobile first view and is responsive. Created via create-react-app in React, Styled with some inline styles, and vanilla CSS. React Strap is used for the Menu button component and styled via vanilla CSS. Hosted on Zeit's website platform. 
 
 ### Prerequisites
 
+Fork and clone the repository. 
 
 ```
 cd client
@@ -31,8 +25,6 @@ Once your dependencies are installed, run
 yarn start or npm start
 ```
 to start up the React app
-
-## Our App
 
 
 
