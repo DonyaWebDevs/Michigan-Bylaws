@@ -103,6 +103,8 @@ import WoodlandsSouthResidential from "../../ByLaws/Northville/Woodlands South R
 import WoodsofEdenderry from "../../ByLaws/Northville/Woods of Edenderry/woods-of-edenderry.pdf";
 import WoodsideVillageBylawsandMasterDeed from "../../ByLaws/Northville/Woodside Village Bylaws and Master Deed/Woodside_Village_Bylaws_and_Master_Deed.pdf";
 
+import NorthRidgeBylaws from "../../soldbycermak/Northville2/Northridge Bylaws/NORTHRIDGE ByLaws.pdf";
+import HighlandLakesCondo from "../../soldbycermak/Northville2/HCLA Bylaws/HLCA BYLAWS 2013.pdf";
 
 
 
@@ -142,6 +144,8 @@ export default function Northville () {
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={GrandeVistaEstatesAmendmenttoMaterDeed}>Grande Vista Estates 2nd Amendment to Mater Deed</a>
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={GrandeVistaEstatesMasterDeedBylaws}>Grande Vista Estates Master Deed & Bylaws</a>
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HighlandLakes}>Highland Lakes</a>
+             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HighlandLakesCondo}>Highland Lakes By-Laws and Master Deed</a>
+
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HighlandLakesHLCABylawsNorthvilleTownship}>Highland Lakes HLCA Bylaws Northville Township</a>
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={HillsofCrestwoodSecondAmendedRevBylaws}>Hills of Crestwood Second Amended Rev Bylaws</a>
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={KirkwayEstatesBylaws}>Kirkway Estates Bylaws</a>
@@ -165,6 +169,7 @@ export default function Northville () {
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NorthBeaconWoods}>North Beacon Woods</a>
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NorthHillsEstates}>North Hills Estates</a>
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NorthLexington}>North Lexington</a>
+             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NorthRidgeBylaws}>Northridge Bylaws</a>
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NorthridgeEstates}>Northridge Estates</a>
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NorthridgeFarmsBylaws}>Northridge Farms Bylaws</a>
              <a style={{color: 'black', display: 'flex', margin: '2%'}}href={NorthridgeFarmsMasterDeed}>Northridge Farms Master Deed</a>

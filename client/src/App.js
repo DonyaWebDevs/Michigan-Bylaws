@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
-import { Route } from 'react-router-dom';
 import { Button, Card, CardBody, Collapse} from "reactstrap"
 import './App.css';
 
 import Navigationbar from './components/Navigationbar/NavBar';
 import Footer from './components/footer/Footer';
-import Toggle from './components/Toggle/Toggle';
-import Wheel from './components/carousel/Carousel';
 import Canton from './components/cities/Canton';
 import Commerce from './components/cities/Commerce';
 import Farmington from './components/cities/Farmington';
@@ -26,6 +23,7 @@ import Wixom from './components/cities/Wixom';
 import WestBloomfield from './components/cities/WestBloomfield';
 import Southfield from './components/cities/Southfield';
 import Brighton from './components/cities/Brighton';
+import SubFooter from './components/SubFooter/SubFooter';
 
 
 
@@ -296,6 +294,7 @@ export default function App () {
           
         
         <Footer />
+        <SubFooter/>
       </div>
     
    

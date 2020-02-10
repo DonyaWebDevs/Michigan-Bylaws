@@ -15,7 +15,7 @@ const Footer = () => {
                             <img className="footer-image_NRC" src={NRC} alt="National Retail Centers "></img>
                         </div>
                         <div >
-                            <img className="footer-image_MLS"className="footer-image_MLS" src={MLS} alt="MLS logo"></img>
+                            <img className="footer-image_MLS" src={MLS} alt="MLS logo"></img>
                         </div>
                     </div>
                     <div className="footer-name">

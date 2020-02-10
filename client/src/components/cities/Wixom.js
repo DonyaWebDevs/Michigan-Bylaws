@@ -13,6 +13,8 @@ export default function Wixom () {
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={MapleForestCondominimus}>Maple Forest Condominimus</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={TributeWixomBylaws}>Tribute Wixom Bylaws</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={WexfordMews}>Wexford Mews</a>
+             
+
         </div>
     )
 }

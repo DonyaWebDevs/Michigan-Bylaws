@@ -34,7 +34,12 @@ footer{
 }
 .footer-address{
     margin: 2.5% 0;
+    padding: 0;
+    
 
+}
+.footer-address p{
+    margin: 0;
 }
 .footer-phone{
     margin: 2.5% 0;
@@ -47,18 +52,11 @@ footer{
 .list{
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    /* grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; */
     
 }
-/* .list{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-} */
+
 
 .list li{
-    /* border: 1px solid black; */
-    /* width: 30%; */
     list-style: none;
     margin-bottom: 3%;
 
@@ -78,11 +76,29 @@ footer{
         /* padding-right: 12%; */
     }
     .footer-top{
-        /* padding-left: 10%; */
+        margin-left: 10%;
+
+    }
+    .footer-image_NRC{
+        margin-top: 5%;
+        width: 45%;
+    }
+    .footer-image_MLS{
+        width: 30%;
+    }
+    .footer-address p{
+        margin: 0;
     }
     .list-container{
-        margin-top: 1%;
-        margin-left: 2%
+        margin-top: 3%;
+    
+    }
+    .list{
+        justify-content: space-around;
+    }
+    .list li{
+        margin-bottom: 10%;
+
     }
 
     footer{

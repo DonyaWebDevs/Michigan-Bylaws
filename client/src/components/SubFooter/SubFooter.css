@@ -1,5 +1,18 @@
 .sub-footer{
-    background: #808080;
-    font-size: 62.5%;
-    padding: 1% 0 1% 4%;;
+    background: #2b2b2b;
+   padding: 2% 0;
+    text-align: center;
+    color:white;
+   
+
+}
+
+.sub-footer p{
+    margin: 0 auto;
+}
+
+@media (min-width: 769px){
+    .sub-footer{
+        padding: 1%;
+    }
 }
