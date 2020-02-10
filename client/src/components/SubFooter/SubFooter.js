@@ -6,7 +6,7 @@ export default function SubFooter () {
 
     return(
         <div className="sub-footer">
-            <p>Website created by DonyaWebDevelopers</p>
+            <p>Website created by DWD</p>
         </div>
         
     
