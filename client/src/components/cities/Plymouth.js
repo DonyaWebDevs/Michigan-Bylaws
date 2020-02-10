@@ -5,6 +5,7 @@ import AndoverLakesSubdivisionBylawsPlymouth from "../../ByLaws/Plymouth/Andover
 import BeaconMeadows from "../../ByLaws/Plymouth/Beacon Meadows/Beacon-Meadows-declaration.pdf";
 import BeechwoodBylaws from "../../ByLaws/Plymouth/Beechwood Bylaws/Beechwood-By-Laws.pdf";
 import BylawsCountryClubVillageofPlymouthSub from "../../ByLaws/Plymouth/Bylaws Country Club Village of Plymouth Sub No.1/Country-Club-Village-of-Plymouth-Sub-bylaws.pdf";
+import CassadyPlace from "../../soldbycermak/Plymouth2/Cassady Place Master Deed/Cassady Place - Residents  Master Deed Bylaws  Verification.pdf";
 import CharnwoodCondominiumsMasterDeedandBylaws from "../../ByLaws/Plymouth/Charnwood Condominiums Master Deed and Bylaws/Charnwood-Master-Deed-By-Laws.pdf";
 import ColonyFarmsPlymouthBylaws from "../../ByLaws/Plymouth/Colony Farms Plymouth Bylaws/Colony-Farms-Sub-Plymouth-By_Laws.pdf";
 import ColonyFarmsPlymouthRestatedSubAgreementBylaws from "../../ByLaws/Plymouth/Colony Farms Plymouth Restated Sub Agreement Bylaws/Colony-Farms-Subdivision-Plymouth-Restated-Sub-Agreement-ByLaws.pdf";
@@ -66,6 +67,8 @@ export default function Plymouth () {
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BeaconMeadows}>Beacon Meadows</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BeechwoodBylaws}>Beechwood Bylaws</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={BylawsCountryClubVillageofPlymouthSub}>Bylaws Country Club Village of Plymouth Sub No. 1</a>
+            <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CassadyPlace}>Cassady Place Master Deed</a>
+           
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={CharnwoodCondominiumsMasterDeedandBylaws}>Charnwood Condominiums Master Deed and Bylaws</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ColonyFarmsPlymouthBylaws}>Colony Farms Plymouth Bylaws</a>
             <a style={{color: 'black', display: 'flex', margin: '2%'}}href={ColonyFarmsPlymouthRestatedSubAgreementBylaws}>Colony Farms Plymouth Restated Sub Agreement Bylaws</a>
