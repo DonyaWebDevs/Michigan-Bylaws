@@ -221,7 +221,7 @@ export default function App () {
             </Collapse>
           </div>
           <div className="button-card">
-            <Button onClick={tSouthfield} className="button">South Field</Button>
+            <Button onClick={tSouthfield} className="button">Southfield</Button>
             <Collapse isOpen={southfield}>
               <Card>
                 <CardBody>
