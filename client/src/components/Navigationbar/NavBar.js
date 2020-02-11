@@ -27,7 +27,9 @@ const NavBar = props => (
                     </a>
                 </div>
                 <div className="size">
+                <a href="https://www.soldbycermak.com/">
                     <FontAwesomeIcon icon={faUser} size="2x"/>
+                </a>    
                 </div>    
 
                 
