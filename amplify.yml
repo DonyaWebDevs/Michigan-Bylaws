@@ -11,9 +11,9 @@ frontend:
         -yarn run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /
+    baseDirectory: /client/src
     files:
       - '**/*'
   cache:
     paths: 
-        -node_modules
+        - node_modules
