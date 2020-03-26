@@ -11,7 +11,7 @@ frontend:
         -yarn run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /Michigan-Bylaws/client/src
+    baseDirectory: /client/build
     files:
       - '**/*'
   cache:
